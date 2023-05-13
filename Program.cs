@@ -16,6 +16,7 @@ builder.Services.AddCors(options =>
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
+Console.WriteLine();
 
 app.UseCors("CorsPolicy");
 
